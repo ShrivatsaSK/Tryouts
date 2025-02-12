@@ -26,7 +26,8 @@ if os.path.exists('search_results.csv'):
         existing_data = list(reader)
 else:
     existing_data = []
-    
+
+
 
 # Prepare header row and new data
 header = ['Rank', 'Title', 'Link']
