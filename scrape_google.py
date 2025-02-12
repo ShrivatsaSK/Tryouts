@@ -27,8 +27,6 @@ if os.path.exists('search_results.csv'):
 else:
     existing_data = []
 
-
-
 # Prepare header row and new data
 header = ['Rank', 'Title', 'Link']
 new_data.append(header)
