@@ -9,7 +9,6 @@ import os
 # Ask the user for a search query
 search_query = input("What would you like to search for? ")
 
-
 # Set up Chrome options with a custom user-agent to avoid reCAPTCHA detection
 options = Options()
 options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
