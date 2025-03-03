@@ -6,7 +6,6 @@ import time
 import csv
 import os
 
-
 # Ask the user for a search query
 search_query = input("What would you like to search for? ")
 
